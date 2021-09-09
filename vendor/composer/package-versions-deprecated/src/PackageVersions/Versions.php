@@ -23,7 +23,7 @@ final class Versions
      * @deprecated please use {@see self::rootPackageName()} instead.
      *             This constant will be removed in version 2.0.0.
      */
-    const ROOT_PACKAGE_NAME = 'symfony/website-skeleton';
+    const ROOT_PACKAGE_NAME = '__root__';
 
     /**
      * Array of all available composer packages.
@@ -83,6 +83,7 @@ final class Versions
   'symfony/flex' => 'v1.15.3@f16f10772422ace36dc76d5d5c7a682c8b925c0c',
   'symfony/form' => 'v5.3.7@325f8c34c3bc58192274e64f042cfc2daad792b0',
   'symfony/framework-bundle' => 'v5.3.7@5d4fcef02a42ea86280afcbacedf8de7a039032c',
+  'symfony/google-mailer' => 'v5.3.0@6b6aa67cc6a6c24adc88d98c23c642950effb739',
   'symfony/http-client' => 'v5.3.7@da8638ffecefc4e8ba2bc848d7b61a408119b333',
   'symfony/http-client-contracts' => 'v2.4.0@7e82f6084d7cae521a75ef2cb5c9457bbda785f4',
   'symfony/http-foundation' => 'v5.3.7@e36c8e5502b4f3f0190c675f1c1f1248a64f04e5',
@@ -127,6 +128,7 @@ final class Versions
   'symfony/var-exporter' => 'v5.3.7@2ded877ab0574d8b646f4eb3f716f8ed7ee7f392',
   'symfony/web-link' => 'v5.3.4@0075c9949c30a61d9b9e7483686d72d261480ef1',
   'symfony/yaml' => 'v5.3.6@4500fe63dc9c6ffc32d3b1cb0448c329f9c814b7',
+  'symfonycasts/verify-email-bundle' => 'v1.5.0@8c21aa9aa6b7123afed213e72485e8dad75e5dcf',
   'twig/extra-bundle' => 'v3.3.1@e12a8ee63387abb83fb7e4c897663bfb94ac22b6',
   'twig/twig' => 'v3.3.2@21578f00e83d4a82ecfa3d50752b609f13de6790',
   'webmozart/assert' => '1.10.0@6964c76c7804814a842473e0c8fd15bab0f18e25',
@@ -165,10 +167,10 @@ final class Versions
   'symfony/phpunit-bridge' => 'v5.3.7@2a1ff6e5a4521be1350bfce75784938e590d6342',
   'symfony/web-profiler-bundle' => 'v5.3.5@95fb24b09551688a09cffac95a2ddbb907833f07',
   'theseer/tokenizer' => '1.2.1@34a41e998c2183e22995f158c581e7b5e755ab9e',
-  'symfony/polyfill-ctype' => '*@',
-  'symfony/polyfill-iconv' => '*@',
-  'symfony/polyfill-php72' => '*@',
-  'symfony/website-skeleton' => 'v5.3.99@',
+  'symfony/polyfill-ctype' => '*@223738225f187ce1ebd03cd2f349bb5d5b39b4e6',
+  'symfony/polyfill-iconv' => '*@223738225f187ce1ebd03cd2f349bb5d5b39b4e6',
+  'symfony/polyfill-php72' => '*@223738225f187ce1ebd03cd2f349bb5d5b39b4e6',
+  '__root__' => 'dev-main@223738225f187ce1ebd03cd2f349bb5d5b39b4e6',
 );
 
     private function __construct()

@@ -1,15 +1,24 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v5.3.99',
-        'version' => '5.3.99.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
-        'name' => 'symfony/website-skeleton',
+        'reference' => '223738225f187ce1ebd03cd2f349bb5d5b39b4e6',
+        'name' => '__root__',
         'dev' => true,
     ),
     'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '223738225f187ce1ebd03cd2f349bb5d5b39b4e6',
+            'dev_requirement' => false,
+        ),
         'composer/package-versions-deprecated' => array(
             'pretty_version' => '1.11.99.3',
             'version' => '1.11.99.3',
@@ -821,6 +830,15 @@
             'reference' => '5d4fcef02a42ea86280afcbacedf8de7a039032c',
             'dev_requirement' => false,
         ),
+        'symfony/google-mailer' => array(
+            'pretty_version' => 'v5.3.0',
+            'version' => '5.3.0.0',
+            'type' => 'symfony-bridge',
+            'install_path' => __DIR__ . '/../symfony/google-mailer',
+            'aliases' => array(),
+            'reference' => '6b6aa67cc6a6c24adc88d98c23c642950effb739',
+            'dev_requirement' => false,
+        ),
         'symfony/http-client' => array(
             'pretty_version' => 'v5.3.7',
             'version' => '5.3.7.0',
@@ -1271,15 +1289,6 @@
             'reference' => '95fb24b09551688a09cffac95a2ddbb907833f07',
             'dev_requirement' => true,
         ),
-        'symfony/website-skeleton' => array(
-            'pretty_version' => 'v5.3.99',
-            'version' => '5.3.99.0',
-            'type' => 'project',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'reference' => NULL,
-            'dev_requirement' => false,
-        ),
         'symfony/yaml' => array(
             'pretty_version' => 'v5.3.6',
             'version' => '5.3.6.0',
@@ -1287,6 +1296,15 @@
             'install_path' => __DIR__ . '/../symfony/yaml',
             'aliases' => array(),
             'reference' => '4500fe63dc9c6ffc32d3b1cb0448c329f9c814b7',
+            'dev_requirement' => false,
+        ),
+        'symfonycasts/verify-email-bundle' => array(
+            'pretty_version' => 'v1.5.0',
+            'version' => '1.5.0.0',
+            'type' => 'symfony-bundle',
+            'install_path' => __DIR__ . '/../symfonycasts/verify-email-bundle',
+            'aliases' => array(),
+            'reference' => '8c21aa9aa6b7123afed213e72485e8dad75e5dcf',
             'dev_requirement' => false,
         ),
         'theseer/tokenizer' => array(
