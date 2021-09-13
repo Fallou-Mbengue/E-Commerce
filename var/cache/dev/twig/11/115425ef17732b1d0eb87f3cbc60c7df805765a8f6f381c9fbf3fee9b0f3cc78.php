@@ -479,6 +479,6 @@ class __TwigTemplate_9203d66e022047f1eeb3d221e3ed5b8d01f5b7f6859ed37a192a29d7170
         </div>
     {% endfor %}
 {% endblock %}
-", "@WebProfiler/Collector/validator.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/E-Commerce/vendor/symfony/web-profiler-bundle/Resources/views/Collector/validator.html.twig");
+", "@WebProfiler/Collector/validator.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/E-Commerce/E-Commerce/vendor/symfony/web-profiler-bundle/Resources/views/Collector/validator.html.twig");
     }
 }

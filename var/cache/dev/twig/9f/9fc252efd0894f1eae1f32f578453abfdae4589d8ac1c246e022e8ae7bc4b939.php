@@ -1541,6 +1541,6 @@ $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBl
     {%- endif -%}
     {{- parent() -}}
 {%- endblock form_help %}
-", "bootstrap_5_layout.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/E-Commerce/vendor/symfony/twig-bridge/Resources/views/Form/bootstrap_5_layout.html.twig");
+", "bootstrap_5_layout.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/E-Commerce/E-Commerce/vendor/symfony/twig-bridge/Resources/views/Form/bootstrap_5_layout.html.twig");
     }
 }

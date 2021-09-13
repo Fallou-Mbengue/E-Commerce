@@ -1099,6 +1099,6 @@ $context["log"], "priorityName", [], "any", false, false, false, 206), "WARNING"
         {% endif %}
     {% endif %}
 {% endmacro %}
-", "@WebProfiler/Collector/logger.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/E-Commerce/vendor/symfony/web-profiler-bundle/Resources/views/Collector/logger.html.twig");
+", "@WebProfiler/Collector/logger.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/E-Commerce/E-Commerce/vendor/symfony/web-profiler-bundle/Resources/views/Collector/logger.html.twig");
     }
 }

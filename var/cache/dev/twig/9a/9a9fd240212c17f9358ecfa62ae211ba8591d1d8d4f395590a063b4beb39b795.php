@@ -417,6 +417,6 @@ class __TwigTemplate_2b598026033a9e98e44f9fba8e174e649357a24f341c814213cab82c2c8
     });
 })();
 </script>
-", "@WebProfiler/Profiler/settings.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/E-Commerce/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/settings.html.twig");
+", "@WebProfiler/Profiler/settings.html.twig", "/Applications/XAMPP/xamppfiles/htdocs/E-Commerce/E-Commerce/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/settings.html.twig");
     }
 }

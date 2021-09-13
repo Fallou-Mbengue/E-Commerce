@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '223738225f187ce1ebd03cd2f349bb5d5b39b4e6',
+        'reference' => 'd3f231059dd9d871a8ab0fe3f98f35153fd11a94',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '223738225f187ce1ebd03cd2f349bb5d5b39b4e6',
+            'reference' => 'd3f231059dd9d871a8ab0fe3f98f35153fd11a94',
             'dev_requirement' => false,
         ),
         'composer/package-versions-deprecated' => array(
@@ -200,12 +200,12 @@
             'dev_requirement' => false,
         ),
         'laminas/laminas-eventmanager' => array(
-            'pretty_version' => '3.3.1',
-            'version' => '3.3.1.0',
+            'pretty_version' => '3.4.0',
+            'version' => '3.4.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laminas/laminas-eventmanager',
             'aliases' => array(),
-            'reference' => '966c859b67867b179fde1eff0cd38df51472ce4a',
+            'reference' => 'a93fd278c97b2d41ebbce5ba048a24e3e6f580ba',
             'dev_requirement' => false,
         ),
         'laminas/laminas-zendframework-bridge' => array(
@@ -1347,12 +1347,6 @@
             'dev_requirement' => false,
             'replaced' => array(
                 0 => '3.4.1',
-            ),
-        ),
-        'zendframework/zend-eventmanager' => array(
-            'dev_requirement' => false,
-            'replaced' => array(
-                0 => '^3.2.1',
             ),
         ),
     ),
